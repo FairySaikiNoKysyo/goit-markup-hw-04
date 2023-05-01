@@ -83,6 +83,17 @@ img {
 .link {
   text-decoration: none;
 }
+/* icons */
+.icon-container {
+  background-color: var(--secondary-bg-cl);
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-we-are {
+}
 
 /* main classes-start */
 .container {
@@ -307,6 +318,34 @@ img {
   padding: 32px 16px;
   text-align: center;
 }
+.team-text {
+  margin-bottom: 8px;
+}
+.social {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 24px;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--focused-txt-cl);
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--focused-bg-cl);
+}
+.social-icon {
+  fill: currentColor;
+}
 
 /* footer */
 .footer-studio {
@@ -327,6 +366,35 @@ img {
 
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-container {
+  display: flex;
+  gap: 120px;
+}
+.social-media-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#fff;
+
+  margin-bottom: 16px;
+}
+.footer-social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--focused-txt-cl);
+  border-radius: 50%;
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+  background-color: #31D0AA;
+
 }
 
 /* main-classes-end */
@@ -385,7 +453,7 @@ img {
   padding-bottom: 32px;
   padding-left: 16px;
   border: 1px solid #e7e9fc;
-  border-top:none;
+  border-top: none;
 }
 
 .portfolio-link {
