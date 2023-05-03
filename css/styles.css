@@ -449,10 +449,11 @@ img {
 }
 .footer-container {
   display: flex;
-  gap: 120px;
+  
   align-items: baseline;
 }
 .footer-content-container {
+ margin-right: 120px;
 }
 .social-media-heading {
   font-weight: 500;
