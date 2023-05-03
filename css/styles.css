@@ -156,6 +156,8 @@ img {
 /* header styles */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -226,14 +228,20 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
 
-  width: 1440px;
-  background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-  url(../images/background/people-office.jpg);
+  max-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   margin-right: auto;
   margin-left: auto;
+
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .hero-title {
@@ -300,6 +308,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 .icon-we-are {
 }
@@ -333,10 +342,11 @@ img {
 .team-properties {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-name-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .team-text {
@@ -349,13 +359,16 @@ img {
 
   gap: 24px;
 }
+.social-item {
+  width: 40px;
+  height: 40px;
+}
 .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
 
   background-color: var(--focused-txt-cl);
   border-radius: 50%;
@@ -396,7 +409,7 @@ img {
   border: 1px solid #8e8f99;
 }
 .customers-item:hover,
-.customers-item:focus{
+.customers-item:focus {
   color: var(--focused-bg-cl);
   border: 1px solid var(--focused-bg-cl);
 }
@@ -405,16 +418,14 @@ img {
   height: 56px;
 }
 .customers-link:hover,
-.customers-link:focus{
+.customers-link:focus {
   color: var(--focused-bg-cl);
 }
-.sprite-icon{
-
-
+.sprite-icon {
 }
 .sprite-icon:hover,
 .sprite-icon:focus {
-  fill:currentColor;
+  fill: currentColor;
 }
 
 /* footer */
@@ -489,7 +500,8 @@ img {
 .filters-item:hover,
 .filters-item:focus {
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filters-button {
   background-color: var(--secondary-bg-cl);
@@ -514,7 +526,6 @@ img {
   color: var(--hero-txt-color);
   background-color: var(--focused-bg-cl);
   border: 1px solid transparent;
-  
 }
 .portfolio-section {
   padding-top: 96px;
@@ -533,8 +544,8 @@ img {
 }
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* portfolio classes end */
