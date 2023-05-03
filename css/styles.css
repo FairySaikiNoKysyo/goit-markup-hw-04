@@ -374,7 +374,9 @@ img {
   background-color: var(--focused-txt-cl);
   border-radius: 50%;
 }
-.social-link:hover,
+.social-link:hover{
+  background-color: var(--focused-bg-cl);
+}
 .social-link:focus {
   background-color: var(--focused-bg-cl);
 }
@@ -409,12 +411,13 @@ img {
   border: 1px solid var(--focused-bg-cl);
 }
 .customers-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 100%;
-  height: 100%;
+  
 
   border: 1px solid #8e8f99;
   border-radius: 4px;
