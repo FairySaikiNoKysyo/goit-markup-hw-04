@@ -227,12 +227,13 @@ img {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+ 
 
   max-width: 1440px;
-  background-image: linear-gradient(
+  background-image:linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ),
+    ), 
     url(../images/background/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -243,6 +244,7 @@ img {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 .hero-title {
   color: var(--hero-txt-color);
